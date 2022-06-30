@@ -16,7 +16,7 @@ body {
 
   display: grid;
   gap: 4px;
-  grid-template: 100px 50px 5fr 50px / 300px 4fr;
+  grid-template: 100px 50px 5fr 50px / 1fr 4fr;
   grid-template-areas: 
   'h h h h h'
   's n n n n'
@@ -61,7 +61,7 @@ body {
   grid-area: s;
 
   display: grid;
-  grid-template: repeat(4, min(1fr,150px)) / 1fr;
+  grid-template: repeat(4, 1fr) / 1fr;
   gap: 50px;
 }
 
